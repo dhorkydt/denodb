@@ -9,6 +9,6 @@ export { Client as PostgresClient } from "https://raw.githubusercontent.com/deno
 export {
   Client as MySQLClient,
   Connection as MySQLConnection,
-} from "https://deno.land/x/mysql/mod.ts";
+} from "https://github.com/wenjoy/deno_mysql/blob/auth-plugin-caching_sha2_password/mod.ts";
 
 export { DB as SQLiteClient } from "https://deno.land/x/sqlite@v2.0.0/mod.ts";
